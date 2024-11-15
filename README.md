@@ -15,5 +15,4 @@ This project is a frontend design replica of the popular Instagram app, develope
 - Custom layouts using **ConstraintLayout** and **RecyclerView**.
 
 ## Screenshots
-![App Screenshot 1](path/to/your/screenshot1.png)
-![App Screenshot 2](path/to/your/screenshot2.png)
+![App Screenshot 1](https://github.com/pratikdeoke/Instagram_Clone_App/blob/main/screenshots/1a.jpg)
