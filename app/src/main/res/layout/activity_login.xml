@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/redpink2"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_login_title"
+        android:text="Instagram"
+        android:textSize="30dp"
+        android:fontFamily="@font/almety"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="400dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/redpink2"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:cardElevation="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/login_username_logo"
+                />
+                <EditText
+                    android:id="@+id/et_login_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint=" Username"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white2"
+                    android:textSize="16dp"
+                    android:layout_marginTop="20dp"
+                    android:inputType="text"
+                    android:textCursorDrawable="@drawable/cursor"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/login_password_logo"
+                    android:layout_marginTop="-10dp"
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/et_login_password"
+                    android:hint=" Password"
+                    android:textColorHint="@color/white2"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPassword"
+                    android:textCursorDrawable="@drawable/cursor"
+                    />
+
+            </LinearLayout>
+
+            
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cb_login_show_hide"
+                android:text="Show Password"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:buttonTint="@color/white"
+                />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_login_login"
+                android:text="Login"
+                android:textSize="16sp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_login_forgot"
+                android:text="Forgot your login details? Get help signing in."
+                android:layout_gravity="center"
+                android:textColor="@color/white3"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="______________     ______________"
+                android:textSize="20dp"
+                android:textColor="@color/white4"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_or"
+                android:text="OR"
+                android:textColor="@color/white3"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-17dp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/img_login_facebook_logo"
+                android:src="@drawable/fb_pink_logo"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_login_loginfb"
+                android:text="Log in with Facebook"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginLeft="100dp"
+                android:textColor="@color/white3"
+                android:layout_marginTop="-30dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardCornerRadius="0dp"
+        android:layout_marginTop="140dp"
+        app:cardBackgroundColor="@color/redpink5"
+        app:cardElevation="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_login_signup"
+                android:text="Don't have an account? Sign up."
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white3"
+
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908705507347",
+    "project_id": "task11-loginpage",
+    "storage_bucket": "task11-loginpage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908705507347:android:7e29ed8633ba2ae1f877e6",
+        "android_client_info": {
+          "package_name": "com.example.task3_loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908705507347-te1u2vakvlsff64hgp992doqt08q74qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7x6-XjiHnTXlegvw6T4tDk3GXfAlvo6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908705507347-te1u2vakvlsff64hgp992doqt08q74qh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

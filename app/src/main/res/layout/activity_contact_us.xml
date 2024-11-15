@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".ContactUsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS Telephony"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/et_contact_us_mobile_no"
+        android:hint="Enter your Mobile Number"
+        android:textColorHint="@color/white3"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:background="@drawable/et_bg_shape"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/et_contact_us_enter_your_msg"
+        android:hint="Enter Your Message"
+        android:textColorHint="@color/white3"
+        android:background="@drawable/et_bg_shape"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:inputType="text"
+        android:gravity="center"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_contact_us_send_sms"
+        android:text="Send SMS"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/white"/>
+
+</LinearLayout>

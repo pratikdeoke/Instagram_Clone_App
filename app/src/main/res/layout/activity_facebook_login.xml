@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".FacebookLoginActivity">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="210dp"
+        android:src="@drawable/img_fblogin_keys"
+        android:layout_gravity="center"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone number or Email Address"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/et_fblogin_username"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:inputType="textEmailAddress"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white2"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/et_fblogin_password"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:inputType="textPassword"
+
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_fblogin_login"
+        android:text="Log In"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fb_login_button"
+        app:backgroundTint="@null"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_fblogin_forgot"
+        android:text="Forgotten Password?"
+        android:textSize="16dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________     __________________"
+        android:textSize="20dp"
+        android:textColor="@color/white4"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="-17dp"
+
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_fblogin_newAccount"
+        android:text="Create New Facebook Account"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_fblogin_newaccount"
+        app:backgroundTint="@null"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

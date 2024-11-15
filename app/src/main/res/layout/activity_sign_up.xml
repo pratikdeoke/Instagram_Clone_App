@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/redpink2"
+    tools:context=".SignUpActivity">
+
+<!--    <ImageButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/imgbtn_signup_back"-->
+<!--        app:srcCompat="@drawable/signup_arrow_back_vector"-->
+<!--        android:backgroundTint="@color/redpink2"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:elevation="16dp"-->
+
+<!--        />-->
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/img_signup_logo"
+        android:src="@drawable/insta_white_logo"
+        android:layout_gravity="center"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="16dp"
+        android:backgroundTint="@color/redpink2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Enter Your Name"
+                android:textColor="@color/white"
+                android:fontFamily="@font/geom"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/signup_name_vector"
+
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:layout_marginTop="4dp"
+                android:textColorHint="@color/white2"
+                android:layout_marginLeft="25dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/et_signup_name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:ems="30"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="16dp"
+        android:backgroundTint="@color/redpink2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Enter Your Mobile Number"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/geom"
+                android:drawableLeft="@drawable/signup_phone_vector"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                android:layout_marginTop="4dp"
+                android:textColorHint="@color/white2"
+                android:layout_marginLeft="25dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/et_signup_mobileNum"
+                    android:inputType="number"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:maxLength="10"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="16dp"
+        android:backgroundTint="@color/redpink2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/geom"
+                android:text=" Enter Your Email ID"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/signup_email_vector"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Email Id"
+                android:layout_marginTop="4dp"
+                android:textColorHint="@color/white2"
+                android:layout_marginLeft="25dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/et_signup_emailid"
+                    android:inputType="textEmailAddress"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:ems="30"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="16dp"
+        android:backgroundTint="@color/redpink2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Enter Your Username"
+                android:fontFamily="@font/geom"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/signup_username_vector"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:layout_marginTop="4dp"
+                android:textColorHint="@color/white2"
+                android:layout_marginLeft="25dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/et_signup_username"
+                    android:inputType="text"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:ems="30"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="16dp"
+        android:backgroundTint="@color/redpink2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Enter Your Password"
+                android:fontFamily="@font/geom"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/signup_lock_vector"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/white"
+                android:layout_marginTop="4dp"
+                android:textColorHint="@color/white2"
+                android:layout_marginLeft="25dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/et_signup_password"
+                    android:inputType="textPassword"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:ems="20"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_signup_signup"
+                android:text="Sign Up"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:background="@drawable/rectangle_btn"
+                android:layout_gravity="center"
+                app:backgroundTint="@null"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/geom"
+
+
+                />
+
+        </LinearLayout>

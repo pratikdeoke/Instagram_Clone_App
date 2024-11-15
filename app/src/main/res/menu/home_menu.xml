@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_menu_my_location"
+        android:title="My Location"
+        app:showAsAction="always"
+        android:icon="@drawable/home_menu_my_location_vector"/>
+
+    <item
+        android:id="@+id/home_menu_my_profile"
+        android:title="My Profile"
+        app:showAsAction="always"
+        android:icon="@drawable/home_menu_myprofile_vector"
+        />
+
+    <item
+        android:id="@+id/home_menu_music"
+        android:title="Music"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/home_menu_video"
+        android:title="Video"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/home_menu_bluetooth"
+        android:title="Bluetooth"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/home_menu_text_to_speech"
+        android:title="Text To Speech"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/home_menu_settings"
+        android:title="Settings"
+        app:showAsAction="never"
+        />
+
+
+
+
+    <item
+        android:id="@+id/home_menu_contact_us"
+        android:title="Contact Us"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/home_menu_about_us"
+        android:title="About Us"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/home_menu_logout"
+        android:title="Logout"
+        app:showAsAction="always"
+        android:icon="@drawable/home_menu_logout_vector"
+        />
+
+
+</menu>
