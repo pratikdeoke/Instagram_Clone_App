@@ -6,7 +6,7 @@ A pixel-faithful frontend replica of the Instagram Android app, built with Java 
 
 ## Screenshots
 
-| Home Feed | Profile | Post Creation |
+| Home Feed | Chats | Registration |
 |-----------|---------|---------------|
 | ![Home](screenshots/8a.jpg) | ![Chats](screenshots/8b.jpg) | ![Registration](screenshots/5a.jpg) |
 
